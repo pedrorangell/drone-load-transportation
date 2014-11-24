@@ -69,7 +69,7 @@ Your system is ready. Run the [rqt_graph](http://wiki.ros.org/rqt_graph) tool to
 rosrun rqt_graph rqt_graph
 ```
 
-![Video window](http://wiki.ros.org/tum_ardrone/drone_stateestimation?action=AttachFile&do=get&target=video.png)
+![envio_tf](https://cloud.githubusercontent.com/assets/9382891/5175632/c8205962-7424-11e4-894b-19378d03720d.png)
 
 ###Flying
 
