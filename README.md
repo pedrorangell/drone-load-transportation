@@ -1,0 +1,3 @@
+drone-load-transportation
+=========================
+"drone-load-transportaion" is a series of modified ROS packages to implement autonomous control functionality on an AR.Drone 2.0 with a suspended load in order to stabilize it during the flight. It uses the "ardrone_autonomy" driver (from AutonomyLab) and "tum_ardrone" (from tum-vision) for implementing autonomous flight with PTAM-based visual navigation. For estimating the load's position, the package "ar_pose" (from LucidOne) is used. It contains AR Marker tools for ROS based on ARToolKit for publishing pose data (tf) from a camera and a marker. The idea is to integrate all trhee packages in order to obtain a platform capable of load transportation using the AR.Drone bottom camera to estimate its position.
