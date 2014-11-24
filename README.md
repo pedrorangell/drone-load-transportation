@@ -69,6 +69,8 @@ Your system is ready. Run the [rqt_graph](http://wiki.ros.org/rqt_graph) tool to
 rosrun rqt_graph rqt_graph
 ```
 
+![Video window](http://wiki.ros.org/tum_ardrone/drone_stateestimation?action=AttachFile&do=get&target=video.png)
+
 ###Flying
 
 AR.Drone 2.0 does not allow streaming of both camera images simultaneously, which means that for the load transportation porpuse it is necessary to give up the PTAM functionality. The Drone will still be able to fly autonomously, but its pose estimation will be worse. Let's hope that Parrot changes that in the future. 
