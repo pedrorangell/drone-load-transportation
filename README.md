@@ -2,6 +2,8 @@ drone-load-transportation
 =========================
 "drone-load-transportaion" is a series of modified ROS packages to implement autonomous control functionality on an AR.Drone 2.0 with a suspended load in order to stabilize it during the flight. It uses the "ardrone_autonomy" driver (from AutonomyLab) and "tum_ardrone" (from tum-vision) for implementing autonomous flight with PTAM-based visual navigation. For estimating the load's position, the package "ar_pose" (from LucidOne) is used. It contains AR Marker tools for ROS based on ARToolKit for publishing pose data (tf) from a camera and a marker. The idea is to integrate all trhee packages in order to obtain a platform capable of load transportation using the AR.Drone bottom camera to estimate its position.
 
+![camera_carga](https://cloud.githubusercontent.com/assets/9382891/5175796/cfcbd64e-7426-11e4-8bfd-dadac481f86e.png)
+
 ###Installation (with catkin)
 
 Download the original packages from:
@@ -107,10 +109,10 @@ goto 0 0 0.7 0
 land
 ```
 ####Procedure
-- Position the Drone on the ground with a lot of free space around it. If you are using PTAM (which means you are not monitoring the load's position), you should have enough key points in front of the Drone. Give preference to furnitured indoor environmnents.
-- Load the flight plan or write one.
-- Click on "Reset" then "Clear and Send"
-- Always be ready to press "Land" in case of imminent crash.
+1. Position the Drone on the ground with a lot of free space around it. If you are using PTAM (which means you are not monitoring the load's position), you should have enough key points in front of the Drone. Give preference to furnitured indoor environmnents.
+2. Load the flight plan or write one.
+3. Click on "Reset" then "Clear and Send"
+4. Always be ready to press "Land" in case of imminent crash.
 
 ####Recording Flight Data
 ``` bash
