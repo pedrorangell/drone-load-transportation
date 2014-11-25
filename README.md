@@ -115,15 +115,22 @@ land
 4. Always be ready to press "Land" in case of imminent crash.
 
 ####Recording Flight Data
+
+Create a folder to store data
 ``` bash
-$Create a folder to store data
 mkdir ~/bagfiles
 cd ~/bagfiles
-$Recording messages from all running topics
+```
+Recording messages from all running topics
+``` bash
 rosbag record -a
-$..or from a specific topic (e.g.: navdata)
+```
+...or from a specific topic (e.g.: navdata)
+``` bash
 rosbag record -O subset /ardrone/navdata
-$Verifying content
+```
+Verifying content
+``` bash
 rosbag info subset.bag
 ```
 In order to take the recorded date to other softwares, it is useful to convert the bag file to txt:
