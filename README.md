@@ -45,14 +45,14 @@ catkin_make
 
 Connect your AR.Drone battery and, in separate terminals, launch the nodes:
 
-ardrone_driver: this may take a few seconds to build. Check the prompt messages for connection failures. The AR.Drone will best perform with full charge.
+- ardrone_driver: this may take a few seconds to build. Check the prompt messages for connection failures. The AR.Drone will best perform with full charge.
 ``` bash
 cd catkin_ws/src
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:`pwd`/ardrone_autonomy
 rosmake ardrone_autonomy
 roslaunch ardrone_autonomy ardrone_driver.launch
 ```
-ar_pose: this node will perform the marker pose estimation (assuming you already attached the marker to the suspended load)
+- ar_pose: this node will perform the marker pose estimation (assuming you already attached the marker to the suspended load)
 ``` bash
 cd catkin_ws/src
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:`pwd`/ar_pose
@@ -62,7 +62,7 @@ roslaunch ar_pose ar_pose_single.launch
 ```
 The [rviz](http://ros.org/wiki/rviz) window should pop on the screen, but you will not see the image until the Drone's bottom camera streaming is enabled (later).
 
-tum_ardrone: this will launch three nodes. Do not proceed without checking [tum_ardrone](https://github.com/tum-vision/tum_ardrone/tree/indigo-devel) for information about the nodes functionalities.
+- tum_ardrone: this will launch three nodes. Do not proceed without checking [tum_ardrone](https://github.com/tum-vision/tum_ardrone/tree/indigo-devel) for information about the nodes functionalities.
 ``` bash
 cd catkin_ws/src
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:`pwd`/tum_ardrone
