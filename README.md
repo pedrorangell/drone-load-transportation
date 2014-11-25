@@ -28,10 +28,14 @@ After download, unzip the files into the source folder of your workspace and exe
 ``` bash
 cd catkin_ws/src/<package name>
 rosdep install <package name>
+```
+Build your workspace.
+``` bash
 catkin_make
 ```
+Download all the files in this repository [drone-load-transportation](), look into the original packages and replace the existing files with these ones (look for the same file name). Make sure to have a backup of the original files, in case something goes wrong.
 
-Download all the files in this repository, look into the original packages and replace the existing files with these ones (look for the same file name). Then build your workspace.
+Then build your workspace again.
 ``` bash
 cd catkin_ws
 catkin_make
