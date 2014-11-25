@@ -8,21 +8,21 @@ drone-load-transportation
 
 Download the original packages from:
 
-ardrone_autonomy: https://github.com/tum-vision/ardrone_autonomy
+- ardrone_autonomy: https://github.com/tum-vision/ardrone_autonomy
 
-tum_ardrone: https://github.com/tum-vision/tum_ardrone/tree/indigo-devel
+- tum_ardrone: https://github.com/tum-vision/tum_ardrone/tree/indigo-devel
 
-ar_pose e libArToolKit: https://github.com/srv/ccny_vision
+- ar_pose e libArToolKit: https://github.com/srv/ccny_vision
 
 In case the following packages are not included in your ROS installation, get them from:
 
-rosbag: https://github.com/ros/ros_comm.git
+- rosbag: https://github.com/ros/ros_comm.git
 
-tf: https://github.com/ros/geometry.git
+- tf: https://github.com/ros/geometry.git
 
-rviz: https://github.com/ros-visualization/rviz.git
+- rviz: https://github.com/ros-visualization/rviz.git
 
-dynamic_reconfigure: https://github.com/ros/dynamic_reconfigure.git
+- dynamic_reconfigure: https://github.com/ros/dynamic_reconfigure.git
 
 After download, unzip the files into the source folder of your workspace and execute:
 ``` bash
