@@ -86,7 +86,11 @@ Select the node [drone_stateestimation](http://wiki.ros.org/tum_ardrone/drone_st
 
 In order to enable the load stabilization controller, select the node [drone_autopilot](http://wiki.ros.org/tum_ardrone/drone_autopilot) and check "Use Load Control". The controller parameters are set for a suspended load with approximately 10% of the Drone's weight, but feel free to experiment.
 
+![UseLoadConfig](https://cloud.githubusercontent.com/assets/9382891/5175752/12f73fea-7426-11e4-89cc-1a1ac70605e5.png)
+
 Open the [drone_gui](http://wiki.ros.org/tum_ardrone/drone_gui#Keyboard_Control) interface, click on "Toggle Cam". Now you should see the bottom image on the rviz screen.
+
+![rviz_screen](https://cloud.githubusercontent.com/assets/9382891/5175742/0266cdf8-7426-11e4-966a-8efcbdc31c14.png)
 
 On the top left box of [drone_gui](http://wiki.ros.org/tum_ardrone/drone_gui#Keyboard_Control) you can either select one of the flight plans included in the package or write your own. Here is a simple flight plan using only control gains:
 
